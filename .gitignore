@@ -1,0 +1,54 @@
+# ==========================================
+# Java Build & Class Files
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+
+# Build output directories
+out/
+bin/
+target/
+build/
+dist/
+
+# ==========================================
+# SOA Suite & JDeveloper Build Artifacts
+# ==========================================
+SCA-INF/classes/
+SCA-INF/src/
+deploy/
+*.sar
+.soa/
+
+# ==========================================
+# IDE Specific Files & Directories
+# ==========================================
+# Eclipse & JDeveloper
+.project
+.classpath
+.settings/
+*.jpr
+*.jws
+.jdev_workspace/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# ==========================================
+# OS Generated Files & Log Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
